@@ -24,9 +24,9 @@ function submit() {
   const baseA = parseFloat(document.getElementById("base-value-a").value)
   const baseB = parseFloat(document.getElementById("base-value-b").value)
   const height = parseFloat(document.getElementById("height-value").value)
-  
+
   // process
-  const area = (baseA + baseB) / 2 * height
+  const area = ((baseA + baseB) / 2) * height
 
   // output
   document.getElementById("area").innerHTML =
