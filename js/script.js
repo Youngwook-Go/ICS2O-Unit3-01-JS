@@ -16,7 +16,7 @@ if (navigator.serviceWorker) {
 }
 
 /**
- * This function displays an alert.
+ * This function calculates area of trapzoid.
  */
 
 function submit() {
